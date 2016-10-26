@@ -1,16 +1,15 @@
 module Valuable
-  
    def self.worth(value)
-   	puts value
-   	if value>=500 and value<=1000
-   		puts 'Category A'
-    elsif
-      if value>=100 and value<=499 
-       	puts 'Category B'
-      elsif
-        puts 'Category C'
-      end
-    end   
+     puts value
+   		if value>=500 and value<=1000
+   			puts 'Category A'
+   		elsif
+   			if value>=100 and value<=499 
+   				puts 'Category B'
+   			elsif
+   				puts 'Category C'
+      	end
+    	end   
    end
 end
 

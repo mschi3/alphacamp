@@ -22,7 +22,7 @@ class Vehicle
     @@number_of_vehicles
   end
   
-  def mileage(miles,gallons)
+  def self.mileage(miles,gallons)
     @total = miles/gallons
   end
   
@@ -100,7 +100,7 @@ puts '-------------------------'
 puts "Previous color was #{car.color}"
 puts car.new_color('Orange')
 puts '-------------------------'
-puts "The gas mileage is #{car.mileage(351, 13)}"
+puts "The gas mileage is #{Vehicle.mileage(351, 13)}"
 puts '------------------------------------------------'
 puts Vehicle.total_number_of_vehicles   
 vehicle1 = Vehicle.new
